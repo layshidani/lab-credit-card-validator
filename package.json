@@ -1,0 +1,31 @@
+{
+  "name": "lab-credit-card-validator",
+  "version": "1.0.0",
+  "description": "Validador de numeros de cartao de credito, utilizando a formula de Luhn",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlays/lab-credit-card-validator.git"
+  },
+  "keywords": [
+    "nyc",
+    "mocha",
+    "javascript",
+    "luhn",
+    "validator",
+    "cardvalidator"
+  ],
+  "author": "Lays M. Hidani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlays/lab-credit-card-validator/issues"
+  },
+  "homepage": "https://github.com/hlays/lab-credit-card-validator#readme"
+}
