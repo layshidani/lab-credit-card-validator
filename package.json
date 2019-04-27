@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/hlays/lab-credit-card-validator/issues"
   },
-  "homepage": "https://github.com/hlays/lab-credit-card-validator#readme"
+  "homepage": "https://github.com/hlays/lab-credit-card-validator#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
 }
