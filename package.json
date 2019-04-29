@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "nyc mocha",
-    "eslint": "./node_modules/.bin/eslint index.js"
+    "eslint": "./node_modules/.bin/eslint lib/index.js"
   },
   "repository": {
     "type": "git",
