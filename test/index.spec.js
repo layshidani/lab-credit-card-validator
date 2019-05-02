@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const cardValidator = require('../lib/index');
+const cardValidator = require('../index');
 
 describe('Validador de cartão de credito', () => {
   describe('Deve retornar true para cartoes validos:', () => {
