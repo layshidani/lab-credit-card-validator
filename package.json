@@ -1,6 +1,6 @@
 {
   "name": "lab-credit-card-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validador de numeros de cartao de credito, utilizando a formula de Luhn",
   "main": "index.js",
   "directories": {
