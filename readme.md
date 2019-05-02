@@ -15,16 +15,17 @@ $  npm install lab-credit-card-validator
 ```
 
 ## Como utilizar:
-* Formato de entrada da função: sting.
+* Formato de entrada da função: string.
 * Não insira pontos, traços ou vírgulas.
 
 
 Exemplo:
 
 ```
-> const validateNum = require('lab-credit-card-validator');
-> console.log(validateNum('5374661040114189'));
-> // return true
+const card = require('lab-credit-card-validator');
+
+console.log(card('5374661040114189'));
+// return true
 ```
 
 ## Roadmap oficial do projeto
@@ -34,4 +35,4 @@ Exemplo:
 
 ### versão 1.0.0 (released)
 * validação de número de cartão de crédito
-* entrada para texto
+* entrada para texto (string)
