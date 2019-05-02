@@ -1,10 +1,9 @@
 {
   "name": "lab-credit-card-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validador de numeros de cartao de credito, utilizando a formula de Luhn",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
     "test": "tests"
   },
   "scripts": {
@@ -30,9 +29,9 @@
   },
   "homepage": "https://github.com/hlays/lab-credit-card-validator#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "mocha": "^6.1.4",
-    "nyc": "^14.0.0"
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "mocha": "6.1.4",
+    "nyc": "14.0.0"
   }
 }
