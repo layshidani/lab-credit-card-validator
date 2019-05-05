@@ -10,7 +10,7 @@ Esta biblioteca se destina a validar números de cartões de crédito;
 
 ## Como instalar:
 
-```
+```zsh
 $  npm install lab-credit-card-validator
 ```
 
@@ -21,7 +21,7 @@ $  npm install lab-credit-card-validator
 
 Exemplo:
 
-```
+```node
 const card = require('lab-credit-card-validator');
 
 console.log(card('5374661040114189'));
