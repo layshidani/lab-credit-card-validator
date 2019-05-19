@@ -1,7 +1,8 @@
 # Validador de cartão de crédito
 
 [![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-credit-card-validator)
-![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/hlays/lab-credit-card-validator.svg)
+
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
