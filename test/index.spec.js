@@ -16,13 +16,13 @@ describe('Validador de cartão de credito', () => {
 
   describe('Deve retornar false para cartoes invalidos:', () => {
     it('Vazio - Deve retornar false ', () => {
-      assert.equal(cardValidator.cardValidator(''), false);
+      assert.equal(cardValidator(''), false);
     });
     it('Qtd de digitos inválida - Deve retornar false:  123456', () => {
-      assert.equal(cardValidator.cardValidator('123456'), false);
+      assert.equal(cardValidator('123456'), false);
     });
     it('Numeros e letras - Deve retornar false: 1sd2d3456', () => {
-      assert.equal(cardValidator.cardValidator('1sd2d3456'), false);
+      assert.equal(cardValidator('1sd2d3456'), false);
     });
   });
 });
