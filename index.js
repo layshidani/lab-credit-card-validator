@@ -1,5 +1,6 @@
-function cardValidator(numbers) {
+const cardValidator = (numbers) => {
   const input = validateUserInput(numbers);
+
   if (input === false) {
     return false;
   } else {
@@ -12,7 +13,7 @@ function cardValidator(numbers) {
   }
 }
 
-function validateUserInput(userInput) {
+const validateUserInput = (userInput) => {
   if (userInput === '' || typeof userInput !== 'string') {
     return false;
   }
