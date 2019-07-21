@@ -27,9 +27,11 @@ $  npm install lab-credit-card-validator
 Exemplo:
 
 ```node
+// Importar módulo (necessário apenas uma vez)
 const card = require('lab-credit-card-validator');
 
-console.log(card('5374661040114189'));
+// Testar número do cartão
+card('5374661040114189');
 // return true
 ```
 
